@@ -1,10 +1,97 @@
 body {
-    background-image: url("../../assets/matrix.jpg");
-    background-repeat: repeat-x;
-    margin: 0;
-    background-size: cover;
+  background-image: url("../../assets/matrix.jpg");
+  background-repeat: repeat-x;
+  padding: 5%;
+  background-size: cover;
+  font-family: "Courier New", monospace;
 }
 
 html {
-    background-color: black;
+  background-color: black;
+}
+
+.page-container {
+  min-height: 100vh;
+}
+
+.main-container {
+  background-color: black;
+  border: 5px solid #8cfad2;
+  color: #26ff00;
+  font-size: 24px;
+}
+
+.container-header {
+  background-color: #4de1b4;
+  border-bottom: 5px solid #8cfad2;
+  text-align: center;
+}
+
+.container-header p {
+  color: #000000;
+}
+
+.container-content {
+  padding: 40px 60px;
+}
+
+.container-content p {
+  padding-bottom: 2.5%;
+}
+
+.container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.text-container {
+  padding-right: 10% !important;
+}
+
+.picture-container {
+  border: 5px solid #8cfad2;
+}
+
+.picture-popup {
+  padding: 20px 0;
+  background-color: black;
+}
+
+.picture {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 75%;
+}
+
+.row {
+  align-items: flex-start;
+}
+
+.row > * {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#experience {
+  display: none;
+}
+
+#experience-link,
+#home-link {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.scroll {
+  overflow-y: scroll;
+  height: 45vh;
+}
+
+.bold {
+  font-weight: bold;
 }
