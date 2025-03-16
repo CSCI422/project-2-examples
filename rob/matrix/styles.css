@@ -1,0 +1,10 @@
+body {
+    background-image: url("../../assets/matrix.jpg");
+    background-repeat: repeat-x;
+    margin: 0;
+    background-size: cover;
+}
+
+html {
+    background-color: black;
+}
