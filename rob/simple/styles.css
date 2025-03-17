@@ -19,10 +19,6 @@ body {
   margin-right: auto;
 }
 
-.active {
-  text-decoration: underline !important;
-}
-
 .navigation a {
   color: #6f8667;
   text-decoration: none;
@@ -33,13 +29,4 @@ body {
   padding-top: 30px;
   padding-bottom: 30px;
   padding-right: 60px !important;
-}
-
-.picture {
-  padding: 25px;
-  width: 100%;
-}
-
-.bold {
-  font-weight: bold;
 }

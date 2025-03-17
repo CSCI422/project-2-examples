@@ -1,0 +1,12 @@
+.bold {
+  font-weight: bold;
+}
+
+.picture {
+  padding: 25px;
+  width: 100%;
+}
+
+.active {
+  text-decoration: underline !important;
+}
