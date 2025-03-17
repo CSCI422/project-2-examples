@@ -19,13 +19,13 @@ body {
   margin-right: auto;
 }
 
+.active {
+  text-decoration: underline !important;
+}
+
 .navigation a {
   color: #6f8667;
   text-decoration: none;
-}
-
-.navigation a .active {
-  text-decoration: underline !important;
 }
 
 .info-container {
