@@ -8,5 +8,5 @@
 }
 
 .active {
-  text-decoration: underline !important;
+  font-weight: bold;
 }
